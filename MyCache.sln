@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCache", "MyCache\MyCache.csproj", "{800ABB86-1D35-442E-9612-FA0068C4127A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{51611F88-6DBF-4D74-9B19-51DE75EDFD39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.BLL", "Ruanmou.BLL\Ruanmou.BLL.csproj", "{DC48F745-6BB4-45C0-B2F8-73D69BE1D75B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{800ABB86-1D35-442E-9612-FA0068C4127A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800ABB86-1D35-442E-9612-FA0068C4127A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800ABB86-1D35-442E-9612-FA0068C4127A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800ABB86-1D35-442E-9612-FA0068C4127A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51611F88-6DBF-4D74-9B19-51DE75EDFD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51611F88-6DBF-4D74-9B19-51DE75EDFD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51611F88-6DBF-4D74-9B19-51DE75EDFD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51611F88-6DBF-4D74-9B19-51DE75EDFD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC48F745-6BB4-45C0-B2F8-73D69BE1D75B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC48F745-6BB4-45C0-B2F8-73D69BE1D75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC48F745-6BB4-45C0-B2F8-73D69BE1D75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC48F745-6BB4-45C0-B2F8-73D69BE1D75B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
