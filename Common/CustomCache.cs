@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,7 @@ namespace Common
         /// static  全局唯一  不释放
         /// Dictionary  保存多项数据
         /// </summary>
-        private static Dictionary<string, KeyValuePair<object, DateTime>> CustomCacheDictionary;
+         private static Dictionary<string, KeyValuePair<object, DateTime>> CustomCacheDictionary;
 
         //private static System.Collections.Concurrent.ConcurrentDictionary
         /// <summary>

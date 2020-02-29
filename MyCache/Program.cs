@@ -176,9 +176,9 @@ namespace MyCache
                         {
                             int k = i;
                             tasks.Add(Task.Run(() =>
-                           {
+                            {
                                CustomCache.Add($"TestKey_{k}", $"TestValue_{k}", new Random().Next(1000, 2000));
-                           }));
+                            }));
                         }
                         //:“已添加了具有相同键的项。” 字典错误，相同的key  多线程临时变量
                         //未将对象引用设置到对象的实例。null问题 也应该是数组的问题，猜测是计算地址的时候，线程冲突
